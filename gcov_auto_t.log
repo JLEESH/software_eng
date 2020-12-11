@@ -41,10 +41,10 @@ Taken at least once:62.50% of 16
 Calls executed:100.00% of 1
 
 Function 'printit'
-Lines executed:55.56% of 9
-Branches executed:50.00% of 12
-Taken at least once:33.33% of 12
-Calls executed:20.00% of 5
+Lines executed:100.00% of 9
+Branches executed:100.00% of 12
+Taken at least once:75.00% of 12
+Calls executed:40.00% of 5
 
 Function 'gidtoname'
 Lines executed:66.67% of 15
@@ -67,7 +67,7 @@ Calls executed:100.00% of 2
 Function 'prot'
 Lines executed:100.00% of 17
 Branches executed:82.35% of 34
-Taken at least once:44.12% of 34
+Taken at least once:47.06% of 34
 No calls
 
 Function 'free_dir'
@@ -95,9 +95,9 @@ Taken at least once:50.00% of 2
 Calls executed:66.67% of 3
 
 Function 'xrealloc'
-Lines executed:0.00% of 6
-Branches executed:0.00% of 2
-Taken at least once:0.00% of 2
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
 Calls executed:0.00% of 2
 
 Function 'xmalloc'
@@ -115,8 +115,8 @@ No calls
 Function 'read_dir'
 Lines executed:92.45% of 53
 Branches executed:88.89% of 54
-Taken at least once:66.67% of 54
-Calls executed:77.78% of 18
+Taken at least once:68.52% of 54
+Calls executed:83.33% of 18
 
 Function 'listdir'
 Lines executed:81.19% of 101
@@ -137,9 +137,9 @@ Taken at least once:70.71% of 99
 Calls executed:64.91% of 57
 
 File 'tree.c'
-Lines executed:78.51% of 684
-Branches executed:79.22% of 645
-Taken at least once:56.74% of 645
-Calls executed:68.91% of 238
+Lines executed:79.68% of 684
+Branches executed:80.47% of 645
+Taken at least once:57.98% of 645
+Calls executed:69.75% of 238
 Creating 'tree.c.gcov'
 
