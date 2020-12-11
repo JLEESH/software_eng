@@ -1,0 +1,145 @@
+Function 'color'
+Lines executed:97.83% of 46
+Branches executed:100.00% of 36
+Taken at least once:94.44% of 36
+Calls executed:100.00% of 10
+
+Function 'cmd'
+Lines executed:100.00% of 5
+Branches executed:100.00% of 6
+Taken at least once:100.00% of 6
+No calls
+
+Function 'split'
+Lines executed:100.00% of 7
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+No calls
+
+Function 'parse'
+Lines executed:100.00% of 9
+Branches executed:100.00% of 12
+Taken at least once:66.67% of 12
+No calls
+
+Function 'parse_dir_colors'
+Lines executed:77.78% of 72
+Branches executed:83.33% of 72
+Taken at least once:52.78% of 72
+Calls executed:82.76% of 29
+
+Function 'findino'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 14
+Taken at least once:64.29% of 14
+No calls
+
+Function 'saveino'
+Lines executed:84.62% of 13
+Branches executed:100.00% of 16
+Taken at least once:75.00% of 16
+Calls executed:100.00% of 1
+
+Function 'printit'
+Lines executed:55.56% of 9
+Branches executed:50.00% of 12
+Taken at least once:33.33% of 12
+Calls executed:20.00% of 5
+
+Function 'gidtoname'
+Lines executed:66.67% of 15
+Branches executed:80.00% of 10
+Taken at least once:50.00% of 10
+Calls executed:75.00% of 4
+
+Function 'uidtoname'
+Lines executed:66.67% of 15
+Branches executed:80.00% of 10
+Taken at least once:50.00% of 10
+Calls executed:75.00% of 4
+
+Function 'do_date'
+Lines executed:100.00% of 8
+Branches executed:100.00% of 4
+Taken at least once:50.00% of 4
+Calls executed:100.00% of 2
+
+Function 'prot'
+Lines executed:100.00% of 17
+Branches executed:82.35% of 34
+Taken at least once:55.88% of 34
+No calls
+
+Function 'free_dir'
+Lines executed:100.00% of 7
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+No calls
+
+Function 'indent'
+Lines executed:100.00% of 26
+Branches executed:100.00% of 36
+Taken at least once:94.44% of 36
+Calls executed:100.00% of 16
+
+Function 'patmatch'
+Lines executed:22.22% of 45
+Branches executed:28.89% of 45
+Taken at least once:17.78% of 45
+Calls executed:0.00% of 1
+
+Function 'gnu_getcwd'
+Lines executed:60.00% of 10
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:66.67% of 3
+
+Function 'xrealloc'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:0.00% of 2
+
+Function 'xmalloc'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 2
+Taken at least once:50.00% of 2
+Calls executed:0.00% of 2
+
+Function 'cmp'
+Lines executed:100.00% of 4
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+No calls
+
+Function 'read_dir'
+Lines executed:92.45% of 53
+Branches executed:92.59% of 54
+Taken at least once:77.78% of 54
+Calls executed:83.33% of 18
+
+Function 'listdir'
+Lines executed:86.14% of 101
+Branches executed:92.86% of 168
+Taken at least once:83.33% of 168
+Calls executed:71.93% of 57
+
+Function 'usage'
+Lines executed:100.00% of 33
+Branches executed:100.00% of 3
+Taken at least once:66.67% of 3
+Calls executed:100.00% of 27
+
+Function 'main'
+Lines executed:98.25% of 171
+Branches executed:100.00% of 99
+Taken at least once:91.92% of 99
+Calls executed:92.98% of 57
+
+File 'tree.c'
+Lines executed:85.82% of 684
+Branches executed:88.22% of 645
+Taken at least once:72.87% of 645
+Calls executed:83.19% of 238
+Creating 'tree.c.gcov'
+

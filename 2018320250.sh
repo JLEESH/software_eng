@@ -64,28 +64,27 @@ ln -sf ../dirB dirA/link_dirB
 # test more colours by using a directory with more file types
 # /dev is a sufficiently common directory that satisfies the requirement
 ./tree /dev #-o /dev/null
-# Note: /dev/null vs -o /dev/null
 
 # take more branches (take a bunch of branches not taken because of OR)
 # not all cases have undergone ablation testing but most or all of them should increase coverage
-./tree -p -o /dev/null
-./tree -s -o /dev/null
-./tree -u -o /dev/null
-./tree -g -o /dev/null
-./tree -D -o /dev/null
+./tree -p
+./tree -s
+./tree -u
+./tree -g
+./tree -D
 
-./tree -pu -o /dev/null
-./tree -pg -o /dev/null
-./tree -ps -o /dev/null
-./tree -pD -o /dev/null
+./tree -pu
+./tree -pg
+./tree -ps
+./tree -pD
 
-./tree -ug -o /dev/null
-./tree -us -o /dev/null
-./tree -uD -o /dev/null
-./tree -sD -o /dev/null
+./tree -ug
+./tree -us
+./tree -uD
+./tree -sD
 
-./tree -fH -o /dev/null
-./tree -lf -o /dev/null
+./tree -fH
+./tree -lf
 
 
 # run gcov and log the output
