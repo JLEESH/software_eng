@@ -1,0 +1,122 @@
+Function 'color'
+Lines executed:97.83% of 46
+No branches
+No calls
+
+Function 'cmd'
+Lines executed:100.00% of 5
+No branches
+No calls
+
+Function 'split'
+Lines executed:100.00% of 7
+No branches
+No calls
+
+Function 'parse'
+Lines executed:100.00% of 9
+No branches
+No calls
+
+Function 'parse_dir_colors'
+Lines executed:77.78% of 72
+No branches
+No calls
+
+Function 'findino'
+Lines executed:100.00% of 6
+No branches
+No calls
+
+Function 'saveino'
+Lines executed:100.00% of 13
+No branches
+No calls
+
+Function 'printit'
+Lines executed:66.67% of 9
+No branches
+No calls
+
+Function 'gidtoname'
+Lines executed:66.67% of 15
+No branches
+No calls
+
+Function 'uidtoname'
+Lines executed:66.67% of 15
+No branches
+No calls
+
+Function 'do_date'
+Lines executed:100.00% of 8
+No branches
+No calls
+
+Function 'prot'
+Lines executed:100.00% of 17
+No branches
+No calls
+
+Function 'free_dir'
+Lines executed:100.00% of 7
+No branches
+No calls
+
+Function 'indent'
+Lines executed:100.00% of 26
+No branches
+No calls
+
+Function 'patmatch'
+Lines executed:22.22% of 45
+No branches
+No calls
+
+Function 'gnu_getcwd'
+Lines executed:60.00% of 10
+No branches
+No calls
+
+Function 'xrealloc'
+Lines executed:66.67% of 6
+No branches
+No calls
+
+Function 'xmalloc'
+Lines executed:66.67% of 6
+No branches
+No calls
+
+Function 'cmp'
+Lines executed:100.00% of 4
+No branches
+No calls
+
+Function 'read_dir'
+Lines executed:92.45% of 53
+No branches
+No calls
+
+Function 'listdir'
+Lines executed:84.16% of 101
+No branches
+No calls
+
+Function 'usage'
+Lines executed:100.00% of 33
+No branches
+No calls
+
+Function 'main'
+Lines executed:97.08% of 171
+No branches
+No calls
+
+File '/home2/lsh2/Desktop/source/SE_hw/tree.c'
+Lines executed:85.67% of 684
+Branches executed:86.36% of 645
+Taken at least once:68.22% of 645
+Calls executed:81.93% of 238
+Creating 'tree.c.gcov'
+

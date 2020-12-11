@@ -1,0 +1,9 @@
+logs/*
+*.gcda
+*.gcno
+*.gcov
+*backup
+*old
+
+.vscode/*
+.vscode/*

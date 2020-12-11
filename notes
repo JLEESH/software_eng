@@ -1,0 +1,141 @@
+./tree: options
+-q vs -N
+-u vs -g?
+-A vs -S
+-n vs -C
+-P, -I, -H, -R
+
+----------two----------
+*line 212: trigger -L missing argument
+*line 217: use Invalid level 0 or smaller
+line 242:?
+line 251: trigger invalid filename for -o
+line 283 -> check with "--version" -> branch
+*line 288: trigger "error opening dir"
+*?line 335: call usage(1) -> invalid argument on line 234
+line 384: make lev > Level while Hflag is false 
+line 395: trigger error while opening file
+->line 410: trigger more branches to be taken (different OR condition?)
+i.e. pflag and sflag false but u flag true etc.
+??line 427** -> trigger xrealloc through dirname while fflag is false
+line 435??
+line 468** -> make !dfa;g && m == S)IFDIR false and make m take other values
+line 482 -> listdir(*dir) make lnk root?
+...
+line 570: trigger error while reading symbolic links
+..line 607: trigger virtual memory exhaustion
+~line 620: trigger pattern matching with ^, ] etc.
+...
+line 748: make code reach while Hflag is true (void indent())
+...gid and uid to name funcs...
+line 874 -> printit: if qflag is false, also make c < ' '
+line 968 -> COL_NORMAL, COL_FILE etc. (i.e. make normal and file have colours? + COL_LEFT/RIGHTCOD etc.E)
+..line 1103: 1113 etc.
+
+
+-------------one------------
+main 95% 171 lines
+listdir 67% 101 lines
+
+harder:
+read_dir(): certain paths not taken
+
+char *gidtoname/*uidtoname:
+ignore if uid == p->xid not tested
+else part in 2nd part of func not tested -> can't get name?
+
+void printit():
+if qflag is FALSE
+if char < ' ' except c == 127# i.e. control char
+
+
+gnu_getcwd():
+test when value = 0
+#obtains 100 characters at a time (to get the cwd)
+(if val = 0 double the buffer size and re-attempt)
+
+
+
+
+
+easier:
+int color():
+certain flags not tested since it depends on
+switch(cmd(c[0])) on line 967
+
+
+
+int patmatch() by Thomas Moore:
+diversify patterns to test different cases
+(switch statement)
+
+
+
+int findino() -> line 477:
+recursion test
+
+low priority:
+*xrealloc / *xmalloc:
+requires exhausting virtual memory
+
+
+
+
+
+
+
+
+
+usage: tree [-adfgilnpqstuxACDFNS] [-H baseHREF] [-L level [-R]] [-P pattern]
+     usage: tree [-adfgilnpqstuxACDFNS] [-H baseHREF] [-L level [-R]] [-P pattern]
+        [-I pattern] [-o filename] [--version] [--help] [<directory list>]
+    -a          All files are listed.
+    -d          List directories only.
+    -l          Follow symbolic links like directories.
+    -f          Print the full path prefix for each file.
+    -i          Don't print indentation lines.
+    -q          Print non-printable characters as '?'.
+    -N          Print non-printable characters as is.
+    -p          Print the protections for each file.
+    -u          Displays file owner or UID number.
+    -g          Displays file group owner or GID number.
+    -s          Print the size in bytes of each file.
+    -D          Print the date of last modification.
+    -F          Appends '/', '=', '*', or '|' as per ls -F.
+    -t          Sort files by last modification time.
+    -x          Stay on current filesystem only.
+    -L level    Descend only level directories deep.
+    -A          Print ANSI lines graphic indentation lines.
+    -S          Print with ASCII graphics identation lines.
+    -n          Turn colorization off always (-C overrides).
+    -C          Turn colorization on always.
+    -P pattern  List only those files that match the pattern given.
+    -I pattern  Do not list files that match the given pattern.
+    -H baseHREF Prints out HTML format with baseHREF as top directory.
+    -R          Rerun tree when max dir level reached.
+    -o file     output to file instead of stdout.   [-I pattern] [-o filename] [--version] [--help] [<directory list>]
+    -a          All files are listed.
+    -d          List directories only.
+    -l          Follow symbolic links like directories.
+    -f          Print the full path prefix for each file.
+    -i          Don't print indentation lines.
+    -q          Print non-printable characters as '?'.
+    -N          Print non-printable characters as is.
+    -p          Print the protections for each file.
+    -u          Displays file owner or UID number.
+    -g          Displays file group owner or GID number.
+    -s          Print the size in bytes of each file.
+    -D          Print the date of last modification.
+    -F          Appends '/', '=', '*', or '|' as per ls -F.
+    -t          Sort files by last modification time.
+    -x          Stay on current filesystem only.
+    -L level    Descend only level directories deep.
+    -A          Print ANSI lines graphic indentation lines.
+    -S          Print with ASCII graphics identation lines.
+    -n          Turn colorization off always (-C overrides).
+    -C          Turn colorization on always.
+    -P pattern  List only those files that match the pattern given.
+    -I pattern  Do not list files that match the given pattern.
+    -H baseHREF Prints out HTML format with baseHREF as top directory.
+    -R          Rerun tree when max dir level reached.
+    -o file     output to file instead of stdout.
