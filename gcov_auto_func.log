@@ -41,10 +41,10 @@ Taken at least once:75.00% of 16
 Calls executed:100.00% of 1
 
 Function 'printit'
-Lines executed:55.56% of 9
-Branches executed:50.00% of 12
-Taken at least once:33.33% of 12
-Calls executed:20.00% of 5
+Lines executed:100.00% of 9
+Branches executed:100.00% of 12
+Taken at least once:83.33% of 12
+Calls executed:60.00% of 5
 
 Function 'gidtoname'
 Lines executed:66.67% of 15
@@ -67,7 +67,7 @@ Calls executed:100.00% of 2
 Function 'prot'
 Lines executed:100.00% of 17
 Branches executed:82.35% of 34
-Taken at least once:55.88% of 34
+Taken at least once:58.82% of 34
 No calls
 
 Function 'free_dir'
@@ -133,13 +133,13 @@ Calls executed:100.00% of 27
 Function 'main'
 Lines executed:98.25% of 171
 Branches executed:100.00% of 99
-Taken at least once:92.93% of 99
+Taken at least once:91.92% of 99
 Calls executed:92.98% of 57
 
 File 'tree.c'
-Lines executed:85.82% of 684
-Branches executed:88.22% of 645
-Taken at least once:73.02% of 645
-Calls executed:83.19% of 238
+Lines executed:86.40% of 684
+Branches executed:89.15% of 645
+Taken at least once:73.95% of 645
+Calls executed:84.03% of 238
 Creating 'tree.c.gcov'
 
