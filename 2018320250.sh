@@ -17,7 +17,7 @@ mkdir -p logs
 ./tree -adlfiqNpugsDFtxASnC -H . -L 50 -R -P tree -I *.c -o logs/log . ..
 
 # don't test seemingly conflicting options/options that supersede each other
-./tree -adlfiqpugsDFtxAn -L 10 -H . -R -P tree -I *.c -o logs/log ..
+./tree -alfiqpugsDFtxAn -L 10 -H . -R -P tree -I *.c -o logs/log ..
 ./tree -adlfiNpugsDFtxSC -L 10 -H . -R -o /dev/null ..
 
 # tests that create(d) visually pleasing logs (and test the -I option properly)
@@ -30,7 +30,7 @@ mkdir -p dirA
 mkdir -p dirB
 ln -sf ../dirA dirB/link_dirA
 ln -sf ../dirB dirA/link_dirB
-./tree -adlfiqpugsDFtxAn -L 10 -H . -R -P tree -I *.c -o logs/log_findino .
+./tree -adl -o logs/log_findino .
 
 # trigger -L argument missing or 0
 ./tree -L 0

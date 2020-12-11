@@ -1,5 +1,5 @@
 Function 'color'
-Lines executed:97.83% of 46
+Lines executed:95.65% of 46
 Branches executed:100.00% of 36
 Taken at least once:94.44% of 36
 Calls executed:100.00% of 10
@@ -23,9 +23,9 @@ Taken at least once:66.67% of 12
 No calls
 
 Function 'parse_dir_colors'
-Lines executed:77.78% of 72
+Lines executed:73.61% of 72
 Branches executed:83.33% of 72
-Taken at least once:52.78% of 72
+Taken at least once:50.00% of 72
 Calls executed:82.76% of 29
 
 Function 'findino'
@@ -37,7 +37,7 @@ No calls
 Function 'saveino'
 Lines executed:84.62% of 13
 Branches executed:100.00% of 16
-Taken at least once:75.00% of 16
+Taken at least once:62.50% of 16
 Calls executed:100.00% of 1
 
 Function 'printit'
@@ -67,7 +67,7 @@ Calls executed:100.00% of 2
 Function 'prot'
 Lines executed:100.00% of 17
 Branches executed:82.35% of 34
-Taken at least once:55.88% of 34
+Taken at least once:44.12% of 34
 No calls
 
 Function 'free_dir'
@@ -77,10 +77,10 @@ Taken at least once:100.00% of 4
 No calls
 
 Function 'indent'
-Lines executed:100.00% of 26
-Branches executed:100.00% of 36
-Taken at least once:94.44% of 36
-Calls executed:100.00% of 16
+Lines executed:46.15% of 26
+Branches executed:44.44% of 36
+Taken at least once:33.33% of 36
+Calls executed:25.00% of 16
 
 Function 'patmatch'
 Lines executed:22.22% of 45
@@ -95,9 +95,9 @@ Taken at least once:50.00% of 2
 Calls executed:66.67% of 3
 
 Function 'xrealloc'
-Lines executed:66.67% of 6
-Branches executed:100.00% of 2
-Taken at least once:50.00% of 2
+Lines executed:0.00% of 6
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
 Calls executed:0.00% of 2
 
 Function 'xmalloc'
@@ -114,32 +114,32 @@ No calls
 
 Function 'read_dir'
 Lines executed:92.45% of 53
-Branches executed:92.59% of 54
-Taken at least once:77.78% of 54
-Calls executed:83.33% of 18
+Branches executed:88.89% of 54
+Taken at least once:66.67% of 54
+Calls executed:77.78% of 18
 
 Function 'listdir'
-Lines executed:86.14% of 101
-Branches executed:92.86% of 168
-Taken at least once:83.33% of 168
-Calls executed:71.93% of 57
+Lines executed:81.19% of 101
+Branches executed:78.57% of 168
+Taken at least once:56.55% of 168
+Calls executed:64.91% of 57
 
 Function 'usage'
-Lines executed:100.00% of 33
+Lines executed:90.91% of 33
 Branches executed:100.00% of 3
-Taken at least once:66.67% of 3
-Calls executed:100.00% of 27
+Taken at least once:33.33% of 3
+Calls executed:96.30% of 27
 
 Function 'main'
-Lines executed:98.25% of 171
-Branches executed:100.00% of 99
-Taken at least once:92.93% of 99
-Calls executed:92.98% of 57
+Lines executed:86.55% of 171
+Branches executed:89.90% of 99
+Taken at least once:70.71% of 99
+Calls executed:64.91% of 57
 
 File 'tree.c'
-Lines executed:85.82% of 684
-Branches executed:88.22% of 645
-Taken at least once:73.02% of 645
-Calls executed:83.19% of 238
+Lines executed:78.51% of 684
+Branches executed:79.22% of 645
+Taken at least once:56.74% of 645
+Calls executed:68.91% of 238
 Creating 'tree.c.gcov'
 

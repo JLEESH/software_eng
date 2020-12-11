@@ -1,7 +1,7 @@
 File 'tree.c'
 Lines executed:85.82% of 684
 Branches executed:88.22% of 645
-Taken at least once:72.87% of 645
+Taken at least once:73.02% of 645
 Calls executed:83.19% of 238
 Creating 'tree.c.gcov'
 
